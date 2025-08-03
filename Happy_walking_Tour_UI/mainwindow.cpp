@@ -12,3 +12,15 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_create_new_tour_clicked()
+{
+
+}
+
+
+void MainWindow::on_see_previous_tours_clicked()
+{
+
+}
+
