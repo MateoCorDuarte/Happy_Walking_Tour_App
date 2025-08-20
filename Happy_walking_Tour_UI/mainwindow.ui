@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Start New Tour</string>
+     <string>Create new tour</string>
     </property>
    </widget>
    <widget class="QPushButton" name="see_previous_tours">
