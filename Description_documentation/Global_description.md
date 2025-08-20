@@ -1,0 +1,18 @@
+- Create your tour. 
+    - Description of your tour.
+        - Add picture/s. 
+        - Add text description. 
+    - Add stop. 
+        - Add picture. 
+        - Add text description of the stop.
+        - Add Audio's stop description. (Optional).
+        - Google maps stop's address.
+- Modify your tour.
+    - Modify Tour description. 
+        - Modify picture. 
+        - Modify text description. 
+    - Modify stop.
+        - Change/add picture/s. 
+        - Modify text description of the stop.
+        - Change Audio's stop description. (Optional).
+        - Change Google maps stop's address.

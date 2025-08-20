@@ -17,6 +17,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_create_new_tour_clicked();
+
+    void on_see_previous_tours_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
