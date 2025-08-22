@@ -14,31 +14,45 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="create_new_tour">
+   <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>200</y>
-      <width>151</width>
-      <height>29</height>
+      <x>29</x>
+      <y>19</y>
+      <width>741</width>
+      <height>501</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Create new tour</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="see_previous_tours">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>260</y>
-      <width>151</width>
-      <height>29</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Edit Previous Tours</string>
-    </property>
+    <widget class="QWidget" name="Menu_1">
+     <widget class="QPushButton" name="create_new_tour">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>190</y>
+        <width>151</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Create new tour</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="see_previous_tours">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>270</y>
+        <width>151</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Edit Previous Tours</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="modify_tour"/>
+    <widget class="QWidget" name="create_new_tour_2"/>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

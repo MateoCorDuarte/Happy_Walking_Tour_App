@@ -1,0 +1,12 @@
+# ninja log v6
+51	1334	7775677321696113	Happy_walking_Tour_UI_autogen/timestamp	9c419fe33cddfd7a
+1376	1586	7775677323291134	CMakeFiles/Happy_walking_Tour_UI.dir/stop.cpp.obj	c44d97ddaf6e2fd8
+1346	4008	7775677322988123	CMakeFiles/Happy_walking_Tour_UI.dir/Happy_walking_Tour_UI_autogen/mocs_compilation.cpp.obj	40aa6eaefa483abd
+51	1334	7775677321696113	Happy_walking_Tour_UI_autogen/mocs_compilation.cpp	9c419fe33cddfd7a
+1368	1584	7775677323215935	CMakeFiles/Happy_walking_Tour_UI.dir/tour.cpp.obj	f3c3d4b4be6ea27f
+51	1334	7775677321696113	C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Happy_walking_Tour_UI_autogen/timestamp	9c419fe33cddfd7a
+51	1334	7775677321696113	C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Happy_walking_Tour_UI_autogen/mocs_compilation.cpp	9c419fe33cddfd7a
+1353	4024	7775677323065299	CMakeFiles/Happy_walking_Tour_UI.dir/main.cpp.obj	4973a1a92e45042f
+1361	4047	7775677323134304	CMakeFiles/Happy_walking_Tour_UI.dir/mainwindow.cpp.obj	b484f2f373fae9f2
+1385	4227	7775677323385735	CMakeFiles/Happy_walking_Tour_UI.dir/create_new_tour_window.cpp.obj	ea449805adae5e3d
+4227	4729	7775677351803278	Happy_walking_Tour_UI.exe	69c81b78263a46e

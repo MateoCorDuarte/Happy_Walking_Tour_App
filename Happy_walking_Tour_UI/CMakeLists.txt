@@ -25,7 +25,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         tour.h tour.cpp
         stop.h stop.cpp
-        create_new_tour_window.h create_new_tour_window.cpp create_new_tour_window.ui
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Happy_walking_Tour_UI APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

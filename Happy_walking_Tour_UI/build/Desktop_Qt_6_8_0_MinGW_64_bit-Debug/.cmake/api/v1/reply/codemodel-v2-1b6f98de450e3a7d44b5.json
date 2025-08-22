@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-ae0af681febb0a68c918.json",
+					"jsonFile" : "directory-.-Debug-91612cde7b8d6323c02a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Happy_walking_Tour_UI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Happy_walking_Tour_UI-Debug-692d20f2627f3897d0a2.json",
+					"jsonFile" : "target-Happy_walking_Tour_UI-Debug-08376ff262439882c945.json",
 					"name" : "Happy_walking_Tour_UI",
 					"projectIndex" : 0
 				},
