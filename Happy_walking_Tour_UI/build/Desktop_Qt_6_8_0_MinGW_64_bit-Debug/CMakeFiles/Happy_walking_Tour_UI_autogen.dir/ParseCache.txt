@@ -509,11 +509,12 @@ C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Hap
  mdp:C:/Qt/6.8.0/mingw_64/include/QtGui/qtransform.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h
- mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/QDialog
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow
- mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qdialog.h
+ mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/QStackedWidget
+ mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h
+ mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qstackedwidget.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtwidgetsexports.h
@@ -726,7 +727,6 @@ C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Hap
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Happy_walking_Tour_UI_autogen/moc_predefs.h
- mdp:C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/create_new_tour_window.h
  mdp:C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/mainwindow.h
 C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/main.cpp
 C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/create_new_tour_window.cpp

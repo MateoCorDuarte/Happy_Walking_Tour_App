@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Menu_1">
      <widget class="QPushButton" name="create_new_tour">
@@ -124,8 +124,35 @@
        </rect>
       </property>
      </widget>
+     <widget class="QPushButton" name="Finished">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>440</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Finished</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="modify_tour"/>
+    <widget class="QWidget" name="modify_tour">
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>80</y>
+        <width>191</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Modify your tour</string>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
