@@ -3,6 +3,13 @@
 
 #include <QMainWindow>
 #include <QStackedWidget>
+#include <QFileDialog>
+#include <QMessageBox>
+#include <QDebug>
+#include <QPixmap>
+#include <QLabel>
+#include <QPushButton>
+#include <QVBoxLayout>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -24,6 +31,8 @@ private slots:
     void on_see_previous_tours_clicked();
 
     void on_Finished_clicked();
+
+    void on_Upload_image_clicked();
 
 private:
     Ui::MainWindow *ui;
