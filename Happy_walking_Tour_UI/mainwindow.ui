@@ -140,7 +140,7 @@
        <string>Upload Image</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_pic">
+     <widget class="QLabel" name="show_tour_cover">
       <property name="geometry">
        <rect>
         <x>420</x>
@@ -151,6 +151,32 @@
       </property>
       <property name="text">
        <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="tour_name">
+      <property name="geometry">
+       <rect>
+        <x>432</x>
+        <y>80</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="save">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>410</y>
+        <width>83</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>save</string>
       </property>
      </widget>
     </widget>

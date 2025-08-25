@@ -62,9 +62,16 @@ void MainWindow::on_Upload_image_clicked()
 
             // Set the scaled image on the QLabel.
             //QImage->setPixmap(scaledPixmap);*/
-            ui->label_pic->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
+            ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
             QMessageBox::information(this, "Success", "Image loaded successfully!");
         }
     }
+}
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    // take all, and use the getters to put them on QLabels at the left.
+    // maybe I can use a friend function so save can be applied to every stop and tour in the current window.
 }
 
