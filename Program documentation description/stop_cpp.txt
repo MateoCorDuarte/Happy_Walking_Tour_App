@@ -1,0 +1,29 @@
+#include "stop.h"
+
+Stop::Stop(const QString& name, const QString& description, const QVector<QString>& photoFilePaths)
+    : m_name(name), m_description(description) {
+    
+    // Load each image from the provided file paths
+    for (const QString& filePath : photoFilePaths) {
+        QImage image(filePath);
+        if (!image.isNull()) {
+            m_photos.append(image);
+        } else {
+            // It's a good practice to handle loading errors
+            // You could log a warning here
+            // qWarning() << "Failed to load image:" << filePath;
+        }
+    }
+}
+
+QString Stop::getName() const {
+    return m_name;
+}
+
+QString Stop::getDescription() const {
+    return m_description;
+}
+
+QVector<QImage> Stop::getPhotos() const {
+    return m_photos;
+}

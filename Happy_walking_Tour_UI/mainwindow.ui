@@ -94,7 +94,7 @@
        <string>Tour Description</string>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit">
+     <widget class="QTextEdit" name="name_input">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -104,7 +104,7 @@
        </rect>
       </property>
      </widget>
-     <widget class="QTextEdit" name="textEdit_3">
+     <widget class="QTextEdit" name="description_input">
       <property name="geometry">
        <rect>
         <x>50</x>

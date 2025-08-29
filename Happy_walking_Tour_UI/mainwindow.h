@@ -1,6 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#include "stop.h"
 #include <QMainWindow>
 #include <QStackedWidget>
 #include <QFileDialog>
@@ -36,7 +37,12 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_save_clicked();
+
 private:
     Ui::MainWindow *ui;
+    const QString name;
+    const QString description;
+    stop m_currentStop;
 };
 #endif // MAINWINDOW_H

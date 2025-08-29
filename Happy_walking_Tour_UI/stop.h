@@ -9,12 +9,12 @@ class stop
 {
 public:
     stop();
-    stop(const QString &name, const QString &description);
+    stop(const QString& name, const QString& description, const QVector<QString>& photoFilePaths);
 
     // Setters
     void setName(const QString &name);
     void setDescription(const QString &description);
-    void addImage(const QImage &image);
+    void addImage(const QImage &image);// I need to pass the addres and append it to the
 
     // Getters
     QString getName() const;
