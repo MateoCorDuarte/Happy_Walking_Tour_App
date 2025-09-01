@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include "stop.h"
+#include "tour.h"
 #include <QMainWindow>
 #include <QStackedWidget>
 #include <QFileDialog>
@@ -43,6 +44,10 @@ private:
     Ui::MainWindow *ui;
     const QString name;
     const QString description;
-    stop m_currentStop;
+
+    //QVector<stop> stops;
+    //QVector<tour> tours;
+    stop stops;
+    tour tours;
 };
 #endif // MAINWINDOW_H

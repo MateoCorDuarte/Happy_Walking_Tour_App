@@ -1,6 +1,8 @@
 C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Happy_walking_Tour_UI_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/mainwindow.h \
   C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Happy_walking_Tour_UI_autogen/moc_predefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QDebug \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QVector \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -129,9 +131,11 @@ C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Hap
   C:/Qt/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qvector.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.8.0/mingw_64/include/QtGui/QImage \
   C:/Qt/6.8.0/mingw_64/include/QtGui/QPixmap \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qbitmap.h \
@@ -422,4 +426,6 @@ C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Hap
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/stop.h \
+  C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/tour.h

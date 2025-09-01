@@ -36,7 +36,6 @@ void MainWindow::on_Finished_clicked()
 
 void MainWindow::on_Upload_image_clicked()
 {
-    // Here the main idea is to store the pictures, and texts in temporary variables and then pass them
     // to set the name, and description to the setters.
     // Define the file filters to show only image files.
     // The syntax is "Description (*.ext1 *.ext2)"
@@ -80,10 +79,17 @@ void MainWindow::on_pushButton_clicked()
 void MainWindow::on_save_clicked()
 {
     //Storing in the tour/stop class:
-    QString Name = ui->name_input->text();
-    QString Description = ui->description_input->text();
+    QString Name = ui->name_input_line_edit->text();
+    QString Description = ui->description_input->toPlainText();
+
+
+    stops.setName(Name);
+    stops.setDescription(Description);
+    //ui->tour_name->setText();
+    QMessageBox::information(this, "Success", "Name and description saved correctly!");
 
     //showing the results at the side.
-    //ui->tour_name->setText();
+    ui->tour_name_show->setText(stops.getName());
+    ui->tour_description_show->setText(stops.getDescription());
 }
 
