@@ -4,6 +4,10 @@
 #include <QString>
 #include <QVector>
 #include <QImage>
+#include <QDebug>
+#include <QPixmap>
+#include <QFileDialog>
+#include <QMessageBox>
 
 class stop
 {
@@ -14,17 +18,17 @@ public:
     // Setters
     void setName(const QString &name);
     void setDescription(const QString &description);
-    void addImage(const QImage &image);// I need to pass the addres and append it to the
+    void addImage(const QString &image);// I need to pass the addres and append it to the
 
     // Getters
     QString getName() const;
     QString getDescription() const;
-    QVector<QImage> getImages() const;
+    QVector<QString> getImages() const;
 
 private:
     QString m_name;
     QString m_description;
-    QVector<QImage> m_images;
+    QVector<QString> m_images;
 
 };
 

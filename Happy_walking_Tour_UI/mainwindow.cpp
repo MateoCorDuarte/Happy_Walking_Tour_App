@@ -36,20 +36,16 @@ void MainWindow::on_Finished_clicked()
 
 void MainWindow::on_Upload_image_clicked()
 {
-    // to set the name, and description to the setters.
-    // Define the file filters to show only image files.
     // The syntax is "Description (*.ext1 *.ext2)"
     QString filter = "Images (*.png *.jpg *.jpeg *.bmp *.gif)";
-
-    // Open the file dialog and get the selected file path.
-    // The last argument sets the filter to the one we defined.
 
     //here I need to set a vector, in case the user wants to set more pictures
     QString filePath = QFileDialog::getOpenFileName(this, "Select an Image", QDir::homePath(), filter);
 
     // Check if the user selected a file (i.e., didn't cancel the dialog).
     if (!filePath.isEmpty()) {
-        qDebug() << "Selected file: " << filePath;
+        stops.addImage(filePath);
+        /*qDebug() << "Selected file: " << filePath;
 
         // Load the selected image into a QPixmap.
         // the setter from the stop/tour object will use the address to then store the pictures.
@@ -63,7 +59,7 @@ void MainWindow::on_Upload_image_clicked()
 
             ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
             QMessageBox::information(this, "Success", "Image loaded successfully!");
-        }
+        }*/
     }
 
 }
@@ -91,5 +87,24 @@ void MainWindow::on_save_clicked()
     //showing the results at the side.
     ui->tour_name_show->setText(stops.getName());
     ui->tour_description_show->setText(stops.getDescription());
+
+    QVector<QString> image =stops.getImages();
+    if (!image[0].isEmpty()) {
+        qDebug() << "Selected file: " << image[0];
+
+        // Load the selected image into a QPixmap.
+        // the setter from the stop/tour object will use the address to then store the pictures.
+        QPixmap pixmap(image[0]);
+
+        // Check if the pixmap was loaded successfully.
+        if (pixmap.isNull()) {
+            QMessageBox::warning(this, "Error", "Failed to load image from " + image[0]);
+        } else {
+            // Scale the pixmap to fit the label, while maintaining aspect ratio.
+
+            ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
+            QMessageBox::information(this, "Success", "Image loaded successfully!");
+        }
+    }
 }
 
