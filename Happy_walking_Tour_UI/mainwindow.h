@@ -40,6 +40,10 @@ private slots:
 
     void on_save_clicked();
 
+    void on_previous_image_clicked();
+
+    void on_next_image_clicked();
+
 private:
     Ui::MainWindow *ui;
     const QString name;

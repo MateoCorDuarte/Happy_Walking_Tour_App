@@ -29,7 +29,7 @@ public:
     // Getters
     QString getName() const;
     QString getDescription() const;
-    QString getImages() const;
+    QString getImage() const;
 
 
     void nextImage();

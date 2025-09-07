@@ -192,6 +192,32 @@
        <string/>
       </property>
      </widget>
+     <widget class="QPushButton" name="next_image">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>220</y>
+        <width>41</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>-&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="previous_image">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>220</y>
+        <width>41</width>
+        <height>29</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;-</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="modify_tour">
      <widget class="QLabel" name="label_4">

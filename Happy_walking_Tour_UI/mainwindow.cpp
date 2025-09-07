@@ -45,21 +45,7 @@ void MainWindow::on_Upload_image_clicked()
     // Check if the user selected a file (i.e., didn't cancel the dialog).
     if (!filePath.isEmpty()) {
         stops.addImage(filePath);
-        /*qDebug() << "Selected file: " << filePath;
 
-        // Load the selected image into a QPixmap.
-        // the setter from the stop/tour object will use the address to then store the pictures.
-        QPixmap pixmap(filePath);
-
-        // Check if the pixmap was loaded successfully.
-        if (pixmap.isNull()) {
-            QMessageBox::warning(this, "Error", "Failed to load image from " + filePath);
-        } else {
-            // Scale the pixmap to fit the label, while maintaining aspect ratio.
-
-            ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
-            QMessageBox::information(this, "Success", "Image loaded successfully!");
-        }*/
     }
 
 }
@@ -88,22 +74,59 @@ void MainWindow::on_save_clicked()
     ui->tour_name_show->setText(stops.getName());
     ui->tour_description_show->setText(stops.getDescription());
 
-    QVector<QString> image =stops.getImages();
-    if (!image[0].isEmpty()) {
-        qDebug() << "Selected file: " << image[0];
+    QString image =stops.getImage();
+    if (!image.isEmpty()) {
+        qDebug() << "Selected file: " << image;
 
         // Load the selected image into a QPixmap.
         // the setter from the stop/tour object will use the address to then store the pictures.
-        QPixmap pixmap(image[0]);
+        QPixmap pixmap(image);
 
         // Check if the pixmap was loaded successfully.
         if (pixmap.isNull()) {
-            QMessageBox::warning(this, "Error", "Failed to load image from " + image[0]);
+            QMessageBox::warning(this, "Error", "Failed to load image from " + image);
         } else {
             // Scale the pixmap to fit the label, while maintaining aspect ratio.
 
             ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
             QMessageBox::information(this, "Success", "Image loaded successfully!");
+        }
+    }
+}
+
+
+void MainWindow::on_previous_image_clicked()
+{
+    stops.previousImage();
+    QString image =stops.getImage();
+    if (!image.isEmpty()) {
+        qDebug() << "Selected file: " << image;
+        QPixmap pixmap(image);
+
+        // Check if the pixmap was loaded successfully.
+        if (pixmap.isNull()) {
+            QMessageBox::warning(this, "Error", "Failed to load image from " + image);
+        } else {
+            ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
+        }
+    }
+}
+
+
+void MainWindow::on_next_image_clicked()
+{
+    stops.nextImage();
+    QString image =stops.getImage();
+    if (!image.isEmpty()) {
+        qDebug() << "Selected file: " << image;
+
+        QPixmap pixmap(image);
+
+        if (pixmap.isNull()) {
+            QMessageBox::warning(this, "Error", "Failed to load image from " + image);
+        } else {
+
+            ui->show_tour_cover->setPixmap(pixmap.scaled(100,100,Qt::KeepAspectRatio));
         }
     }
 }

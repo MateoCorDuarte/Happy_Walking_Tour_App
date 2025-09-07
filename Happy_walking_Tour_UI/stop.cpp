@@ -43,7 +43,7 @@ QString stop::getDescription() const {
     return m_description;
 }
 
-QString stop::getImages() const {
+QString stop::getImage() const {
     return this->currentImage != nullptr ? this->currentImage->imagePath : "";
 }
 
