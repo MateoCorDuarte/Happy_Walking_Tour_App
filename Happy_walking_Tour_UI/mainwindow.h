@@ -44,6 +44,8 @@ private slots:
 
     void on_next_image_clicked();
 
+    void displayTourStopImage();
+
 private:
     Ui::MainWindow *ui;
     const QString name;

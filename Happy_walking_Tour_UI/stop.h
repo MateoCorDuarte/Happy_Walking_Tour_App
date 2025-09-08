@@ -31,7 +31,6 @@ public:
     QString getDescription() const;
     QString getImage() const;
 
-
     void nextImage();
     void previousImage();
 

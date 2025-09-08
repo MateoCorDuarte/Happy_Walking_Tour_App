@@ -972,8 +972,8 @@ C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Hap
  mdp:C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/mainwindow.h
  mdp:C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/stop.h
  mdp:C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/tour.h
-C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/main.cpp
 C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/stop.h
+C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/main.cpp
 C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/tour.h
 C:/Users/corte/OneDrive/Documents/Documents/proyectos/Happy_Walking_Tour_App/Happy_walking_Tour_UI/mainwindow.cpp
  uic:./ui_mainwindow.h

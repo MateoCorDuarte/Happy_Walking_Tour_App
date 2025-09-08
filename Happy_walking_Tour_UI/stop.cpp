@@ -50,7 +50,6 @@ QString stop::getImage() const {
 
 //Methods
 void stop::addImage(const QString &newImage) {
-    //QImage Image(image);
     ImageNode* newNode = new ImageNode;
     newNode->imagePath = newImage;
     newNode->next = nullptr;
@@ -75,8 +74,8 @@ void stop::nextImage(){
 }
 
 void stop::previousImage(){
-    if (this->currentImage != nullptr && this->currentImage->previous != nullptr) {
-        this->currentImage = this->currentImage->previous;
+    if (currentImage != nullptr){
+        currentImage = this->currentImage->previous;
     }
 }
 
